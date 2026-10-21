@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#35231b">
+  <meta name="description" content="Aurora Café: um conceito de cafeteria de cafés especiais, receitas autorais e bons encontros. Projeto demonstrativo de landing page.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aurora Café | Bons cafés, dias melhores">
+  <meta property="og:description" content="Uma experiência acolhedora, uma xícara de cada vez. Projeto conceitual de cafeteria.">
+  <title>Aurora Café | Bons cafés, dias melhores</title>
+  <link rel="icon" href="arquivos/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="arquivos/img/hero-cafe.webp" as="image" type="image/webp" fetchpriority="high">
+  <link rel="stylesheet" href="arquivos/css/style.css">
+  <script src="arquivos/js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <svg class="icon-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="ico-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-7-7 7 7-7 7"/></symbol>
+    <symbol id="ico-bag" viewBox="0 0 24 24"><path d="M4 8h16l-1.2 12H5.2L4 8Zm5 1V6a3 3 0 0 1 6 0v3"/></symbol>
+    <symbol id="ico-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="ico-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="ico-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="ico-coffee" viewBox="0 0 24 24"><path d="M4 8h13v6a6 6 0 0 1-6 6H10a6 6 0 0 1-6-6V8Zm13 1h2a3 3 0 1 1 0 6h-2M8 2v3m5-3v3"/></symbol>
+    <symbol id="ico-leaf" viewBox="0 0 24 24"><path d="M20 4C11 4 5 7 4 15c0 3 2 5 5 5 8-1 11-7 11-16ZM4 20c4-5 8-8 13-10"/></symbol>
+    <symbol id="ico-heart" viewBox="0 0 24 24"><path d="M20.7 5.7a5 5 0 0 0-7.1 0L12 7.3l-1.6-1.6a5 5 0 0 0-7.1 7.1L12 21l8.7-8.2a5 5 0 0 0 0-7.1Z"/></symbol>
+    <symbol id="ico-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v6l4 2"/></symbol>
+    <symbol id="ico-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+    <symbol id="ico-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M7 7l1 13h8l1-13M10 11v6m4-6v6"/></symbol>
+    <symbol id="ico-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="ico-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+  </svg>
+
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Aurora Café, voltar ao início">
+        <img src="arquivos/assets/logo.svg" alt="Aurora Café" width="145" height="70">
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <a href="#inicio" class="nav-link is-current">Início</a>
+        <a href="#cardapio" class="nav-link">Cardápio</a>
+        <a href="#historia" class="nav-link">Nossa história</a>
+        <a href="#diferenciais" class="nav-link">Diferenciais</a>
+        <a href="#galeria" class="nav-link">Galeria</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+      <div class="header-actions">
+        <button class="order-button" type="button" data-cart-open aria-label="Abrir meu pedido de demonstração">
+          <svg class="icon" aria-hidden="true"><use href="#ico-bag"/></svg>
+          <span>Meu pedido</span>
+          <span class="cart-count" data-cart-count hidden>0</span>
+        </button>
+        <button class="mobile-toggle" id="mobile-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+          <svg class="icon" aria-hidden="true"><use href="#ico-menu"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> Cafés feitos para sentir</p>
+          <h1 id="hero-title">Bons cafés.<br><em>Dias melhores.</em></h1>
+          <div class="hero-rule"></div>
+          <p class="hero-description">Cada xícara tem uma história. Descubra sabores especiais, preparos artesanais e aquele momento do dia que é só seu.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#cardapio"><svg class="icon" aria-hidden="true"><use href="#ico-coffee"/></svg> Explorar cardápio</a>
+            <a class="button button-ghost" href="#historia">Nossa história <svg class="icon" aria-hidden="true"><use href="#ico-arrow"/></svg></a>
+          </div>
+          <div class="hero-note"><span class="hero-note-dot"></span> Um convite para desacelerar</div>
+        </div>
+      </div>
+      <span class="hero-side-label" aria-hidden="true">AURORA · CAFÉ ESPECIAL</span>
+    </section>
+
+    <section class="menu-section section-pad" id="cardapio" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="section-intro centered" data-reveal>
+          <p class="eyebrow">Feito com cuidado, servido com carinho</p>
+          <h2 id="menu-title">Os favoritos da casa</h2>
+          <p>Sabores para começar bem o dia — ou tornar qualquer pausa ainda melhor.</p>
+        </div>
+        <div class="menu-bar" data-reveal>
+          <div class="filters" role="group" aria-label="Filtrar cardápio">
+            <button type="button" class="filter is-active" data-filter="cafes" aria-pressed="true">Cafés especiais</button>
+            <button type="button" class="filter" data-filter="comidas" aria-pressed="false">Doces & quitutes</button>
+            <button type="button" class="filter" data-filter="todos" aria-pressed="false">Ver tudo</button>
+          </div>
+          <span class="menu-note">Cardápio ilustrativo <span aria-hidden="true">↗</span></span>
+        </div>
+        <div class="product-grid" id="product-grid">
+          <article class="product-card" data-id="latte" data-category="cafes" data-reveal>
+            <div class="product-image"><img src="arquivos/img/latte-classico.webp" alt="Latte clássico com desenho de folha na espuma" width="410" height="619" loading="lazy"><span class="product-tag">Queridinho</span></div>
+            <div class="product-info"><div><h3>Latte clássico</h3><p>Espresso intenso, leite cremoso e um toque de aconchego.</p></div><div class="product-bottom"><strong>R$ 15,90</strong><button type="button" class="add-button" data-add="latte" aria-label="Adicionar latte clássico ao pedido"><svg class="icon" aria-hidden="true"><use href="#ico-plus"/></svg></button></div></div>
+          </article>
+          <article class="product-card" data-id="caramelo" data-category="cafes" data-reveal>
+            <div class="product-image"><img src="arquivos/img/caramelo-gelado.webp" alt="Café gelado com gelo, leite e caramelo" width="410" height="619" loading="lazy"></div>
+            <div class="product-info"><div><h3>Caramelo gelado</h3><p>Café gelado, leite e caramelo em camadas irresistíveis.</p></div><div class="product-bottom"><strong>R$ 18,90</strong><button type="button" class="add-button" data-add="caramelo" aria-label="Adicionar caramelo gelado ao pedido"><svg class="icon" aria-hidden="true"><use href="#ico-plus"/></svg></button></div></div>
+          </article>
+          <article class="product-card" data-id="mocha" data-category="cafes" data-reveal>
+            <div class="product-image"><img src="arquivos/img/mocha.webp" alt="Mocha com chantilly e cobertura de chocolate" width="410" height="619" loading="lazy"></div>
+            <div class="product-info"><div><h3>Mocha indulgente</h3><p>Chocolate, espresso e chantilly em perfeita harmonia.</p></div><div class="product-bottom"><strong>R$ 20,90</strong><button type="button" class="add-button" data-add="mocha" aria-label="Adicionar mocha indulgente ao pedido"><svg class="icon" aria-hidden="true"><use href="#ico-plus"/></svg></button></div></div>
+          </article>
+          <article class="product-card" data-id="matcha" data-category="cafes" data-reveal>
+            <div class="product-image"><img src="arquivos/img/matcha.webp" alt="Matcha latte verde com espuma decorada" width="410" height="619" loading="lazy"><span class="product-tag">Novidade</span></div>
+            <div class="product-info"><div><h3>Matcha latte</h3><p>Notas vegetais suaves, leite vaporizado e sabor delicado.</p></div><div class="product-bottom"><strong>R$ 19,90</strong><button type="button" class="add-button" data-add="matcha" aria-label="Adicionar matcha latte ao pedido"><svg class="icon" aria-hidden="true"><use href="#ico-plus"/></svg></button></div></div>
+          </article>
+          <article class="product-card" data-id="croissant" data-category="comidas" hidden>
+            <div class="product-image"><img src="arquivos/img/croissant.webp" alt="Croissants dourados e folhados sobre uma tábua" width="410" height="619" loading="lazy"></div>
+            <div class="product-info"><div><h3>Croissant artesanal</h3><p>Massa leve, muitas camadas e uma casquinha dourada.</p></div><div class="product-bottom"><strong>R$ 14,90</strong><button type="button" class="add-button" data-add="croissant" aria-label="Adicionar croissant artesanal ao pedido"><svg class="icon" aria-hidden="true"><use href="#ico-plus"/></svg></button></div></div>
+          </article>
+          <article class="product-card" data-id="bolo" data-category="comidas" hidden>
+            <div class="product-image"><img src="arquivos/img/bolo-chocolate.webp" alt="Fatia de bolo de chocolate com cobertura cremosa" width="410" height="619" loading="lazy"></div>
+            <div class="product-info"><div><h3>Bolo de chocolate</h3><p>Camadas fofinhas e ganache para adoçar a sua pausa.</p></div><div class="product-bottom"><strong>R$ 17,90</strong><button type="button" class="add-button" data-add="bolo" aria-label="Adicionar bolo de chocolate ao pedido"><svg class="icon" aria-hidden="true"><use href="#ico-plus"/></svg></button></div></div>
+          </article>
+        </div>
+        <p class="fine-print">* Produtos e preços fictícios criados para apresentação do projeto.</p>
+      </div>
+    </section>
+
+    <section class="story-section section-pad" id="historia" aria-labelledby="story-title">
+      <div class="container story-grid">
+        <div class="story-copy" data-reveal>
+          <p class="eyebrow">Nossa essência</p>
+          <h2 id="story-title">Um café que<br><em>aproxima pessoas.</em></h2>
+          <p>A Aurora nasceu de uma ideia simples: transformar pequenos intervalos em grandes momentos. Acreditamos que um bom café vai além do sabor.</p>
+          <p>É sobre conversas sem pressa, encontros inesperados e o cuidado que existe em cada detalhe — do grão à xícara.</p>
+          <a class="text-link" href="#diferenciais">Descubra o que nos move <svg class="icon" aria-hidden="true"><use href="#ico-arrow"/></svg></a>
+          <div class="story-signature" aria-hidden="true">Com carinho, Aurora.</div>
+        </div>
+        <div class="story-mosaic" data-reveal>
+          <div class="story-photo story-photo-main"><img src="arquivos/img/detalhe-cafe.webp" alt="Detalhe de xícara de café com arte na espuma e grãos na mesa" width="776" height="825" loading="lazy"></div>
+          <div class="story-photo story-photo-beans"><img src="arquivos/img/graos.webp" alt="Grãos de café e utensílios em ambiente aconchegante" width="495" height="505" loading="lazy"></div>
+          <div class="story-photo story-photo-small"><img src="arquivos/img/ambiente-cafe.webp" alt="Ambiente de cafeteria com mesas, madeira e iluminação quente" width="248" height="112" loading="lazy"></div>
+          <span class="story-stamp" aria-hidden="true">♥<small>FEITO COM AFETO</small></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="pastry-banner" aria-labelledby="pastry-title">
+      <div class="container pastry-inner" data-reveal>
+        <p class="eyebrow eyebrow-light">Pequenos prazeres</p>
+        <h2 id="pastry-title">Todo dia merece<br>algo especial.</h2>
+        <p>O café fica ainda melhor com nossas delícias artesanais, feitas para acompanhar seus melhores momentos.</p>
+        <a class="button button-primary" href="#cardapio" data-show-food>Conheça os quitutes <svg class="icon" aria-hidden="true"><use href="#ico-arrow"/></svg></a>
+      </div>
+    </section>
+
+    <section class="benefits-section section-pad" id="diferenciais" aria-labelledby="benefits-title">
+      <div class="container">
+        <div class="section-intro centered" data-reveal><p class="eyebrow">O cuidado faz a diferença</p><h2 id="benefits-title">Mais que uma xícara de café</h2></div>
+        <div class="benefits-grid">
+          <div class="benefit" data-reveal><div class="benefit-icon"><svg class="icon" aria-hidden="true"><use href="#ico-leaf"/></svg></div><h3>Grãos selecionados</h3><p>Sabores especiais e atenção à qualidade em cada preparo.</p></div>
+          <div class="benefit" data-reveal><div class="benefit-icon"><svg class="icon" aria-hidden="true"><use href="#ico-coffee"/></svg></div><h3>Preparo artesanal</h3><p>Cuidado no tempo, na técnica e nos pequenos detalhes.</p></div>
+          <div class="benefit" data-reveal><div class="benefit-icon"><svg class="icon" aria-hidden="true"><use href="#ico-heart"/></svg></div><h3>Momentos especiais</h3><p>Um lugar imaginado para conversas e boas lembranças.</p></div>
+          <div class="benefit" data-reveal><div class="benefit-icon"><svg class="icon" aria-hidden="true"><use href="#ico-clock"/></svg></div><h3>Seu tempo importa</h3><p>Uma pausa sem pressa para aproveitar o agora.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section section-pad" id="galeria" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="gallery-top" data-reveal><div><p class="eyebrow">Um olhar sobre a Aurora</p><h2 id="gallery-title">Entre aromas e encontros</h2></div><p>Um pouco da atmosfera que inspira a nossa cafeteria.</p></div>
+        <div class="gallery-grid" data-reveal>
+          <figure class="gallery-tile"><img src="arquivos/img/latte-classico.webp" alt="Latte com arte de folha, visto de cima" width="410" height="619" loading="lazy"></figure>
+          <figure class="gallery-tile"><img src="arquivos/img/croissant.webp" alt="Croissants artesanais dourados" width="410" height="619" loading="lazy"></figure>
+          <figure class="gallery-tile"><img src="arquivos/img/ambiente-cafe.webp" alt="Interior aconchegante de cafeteria" width="248" height="112" loading="lazy"></figure>
+          <figure class="gallery-tile"><img src="arquivos/img/caramelo-gelado.webp" alt="Café gelado servido em copo alto" width="410" height="619" loading="lazy"></figure>
+          <figure class="gallery-tile"><img src="arquivos/img/bolo-chocolate.webp" alt="Bolo de chocolate com ganache" width="410" height="619" loading="lazy"></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="last-cta" id="contato" aria-labelledby="cta-title">
+      <div class="container cta-inner">
+        <div data-reveal><p class="eyebrow eyebrow-light">Até a próxima xícara</p><h2 id="cta-title">Seu próximo favorito<br>está aqui.</h2><p>Explore o cardápio e monte uma seleção de demonstração.</p></div>
+        <a class="button button-light" href="#cardapio">Explorar sabores <svg class="icon" aria-hidden="true"><use href="#ico-arrow"/></svg></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><img src="arquivos/assets/logo.svg" alt="Aurora Café" width="160" height="75"><p>Pequenos momentos.<br>Grandes sabores.</p></div>
+      <div><h3>Navegação</h3><a href="#inicio">Início</a><a href="#cardapio">Cardápio</a><a href="#historia">Nossa história</a><a href="#galeria">Galeria</a></div>
+      <div><h3>Descubra</h3><a href="#diferenciais">Nosso cuidado</a><a href="#contato">Sobre o projeto</a><button type="button" class="footer-order" data-cart-open>Ver pedido de demonstração</button></div>
+      <div class="footer-note"><h3>Uma marca-conceito</h3><p>Este site apresenta uma cafeteria fictícia, criada exclusivamente como projeto de portfólio. As imagens, os valores e os produtos são ilustrativos.</p></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year">2026</span> Aurora Café · Projeto demonstrativo.</span><span>Desenvolvido com HTML, CSS e JavaScript.</span></div>
+  </footer>
+
+  <div class="cart-backdrop" id="cart-backdrop" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true" tabindex="-1">
+    <div class="cart-head"><div><p class="eyebrow">Sua seleção</p><h2 id="cart-title">Meu pedido <span class="cart-head-count" id="cart-head-count">(0)</span></h2></div><button type="button" class="icon-button" id="cart-close" aria-label="Fechar pedido"><svg class="icon" aria-hidden="true"><use href="#ico-close"/></svg></button></div>
+    <div class="cart-body" id="cart-items"><div class="cart-empty"><svg class="icon" aria-hidden="true"><use href="#ico-bag"/></svg><h3>Sua seleção está vazia</h3><p>Adicione seus favoritos do cardápio para experimentar a interface.</p></div></div>
+    <div class="cart-footer"><div class="cart-total"><span>Total ilustrativo</span><strong id="cart-total">R$ 0,00</strong></div><p>Esta é uma simulação de pedido. Não há compras, pagamentos nem envio de dados.</p><button type="button" class="button button-primary button-full" id="cart-continue">Continuar escolhendo <svg class="icon" aria-hidden="true"><use href="#ico-arrow"/></svg></button></div>
+  </aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 118" role="img" aria-labelledby="titulo">
+<title id="titulo">Aurora Café</title>
+<g transform="translate(111 2) rotate(-28 18 17)" fill="#9e5c39"><path d="M18 2C8 2 1 8 1 19s7 17 17 17S35 30 35 19 28 2 18 2Z"/><path d="M15 2C24 14 13 21 20 36" fill="none" stroke="#f7eee3" stroke-width="2.6" stroke-linecap="round"/></g>
+<text x="125" y="78" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="61" font-weight="600" letter-spacing="-4" fill="#342018">Aurora</text>
+<text x="125" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" letter-spacing="8" fill="#9e5c39">CAFÉ</text></svg>
